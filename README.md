@@ -1,4 +1,4 @@
-Phar Compact
+Phar Replace
 ============
 
 [![Build Status][]](https://travis-ci.org/phine/lib-phar-replace)
