@@ -1,0 +1,7 @@
+/cache/
+/coverage/
+/docs/
+/src/vendors/
+
+/composer.lock
+/coverage.xml
