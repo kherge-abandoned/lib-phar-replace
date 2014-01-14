@@ -1,0 +1,41 @@
+{
+    "name": "phine/phar-replace",
+    "description": "Adds search and replace support for the phar library.",
+    "keywords": ["phar","replace"],
+    "homepage": "https://github.com/phine/lib-phar-replace",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Herrera",
+            "email": "kevin@herrera.io",
+            "homepage": "http://kevin.herrera.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/phine/lib-phar-replace/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "phine/exception": "~1.0",
+        "phine/observer": "~2.0",
+        "phine/phar": "~1.0"
+    },
+    "require-dev": {
+        "league/phpunit-coverage-listener": "~1.0",
+        "phine/test": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Phine\\Phar\\Replace": "src/lib"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "src/vendors"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
